@@ -2,11 +2,6 @@ import prefix
 import suffix
 
 
-# You need to call choose_word to get a random word from the prefix's suffix and somehow make that part of the final return output.
-# Then, you should shift in the word to the prefix so you get a new prefix and keep doing this until the specified number of words is
-# generated or you encounter NONWORD. Since you can't use loops you should do
-# this recursively and/or use helper functions (without loops)/higher order functions.
-
 
 def get_word_list(chain, pref, f_random, num_words, nonword):
     curr_vals = []
